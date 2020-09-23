@@ -9,7 +9,6 @@ interface Request{
     date: Date;
 
 }
-
 export default class CreateAppointmentService{
 
     public async execute({date, provider_id}: Request): Promise<Appointment>{
